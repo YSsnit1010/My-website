@@ -1,0 +1,134 @@
+body {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+.hero-image{
+    background-image: url("image/doll.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    height:750px;
+    position:static;
+    margin-top: 0;
+    padding-top: 0;
+}
+.hero-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font:xx-large;
+    
+}
+button {
+    padding: 15px 25px;
+    font-size: 24px;
+    font-family: "Sofia", serif;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #0446aa;
+    border: none;
+    border-radius: 15px;
+}
+
+.button:hover {background-color: #3e898e}
+
+
+
+#header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#header2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.secondpart {
+    background-color:rgb(236, 232, 232);
+    text-align: center;
+    
+}
+.thirdpart {
+    background-color:rgb(47, 129, 236);
+    text-align: center;
+    margin-top: -20px;
+    padding-top: -20px;
+}
+.nav-main {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(236, 232, 232);
+    list-style-type: none;
+    font-family: "Sofia", sans-serif;
+    font: medium;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+
+ul {
+list-style-type: none;
+font-family: "Sofia", sans-serif;
+font: large;
+margin: 0;
+padding: 0;
+overflow: hidden;
+float: right;
+}
+
+li {
+float:right;
+}
+.logo {
+    width: 60px;
+    height: 100%;
+    float: left;
+    background-image: url("image/logo_fiyorina\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+    cursor: pointer;
+}
+
+li a, .dropbtn {
+display: inline-block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+background-color: rgb(47, 129, 236);
+}
+
+li.dropdown {
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: rgb(236, 232, 232);
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {background-color: rgb(201, 192, 192);}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
