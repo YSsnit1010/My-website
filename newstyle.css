@@ -32,8 +32,8 @@ body {
     background-size: cover;
     height:750px;
     position:static;
-    margin-top: 0;
-    padding-top: -10;
+    margin-top: -100;
+    padding-top: -100;
 }
 .hero-image3{
     background-image: url("image/fight_hunger.jpg");
