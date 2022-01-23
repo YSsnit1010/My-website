@@ -22,7 +22,7 @@ body {
     height:750px;
     position:static;
     margin-top: 0;
-    padding-top: 0;
+    padding-top: -10;
 }
 .hero-image2{
     background-image: url("image/our_offices_earth.jpg");
